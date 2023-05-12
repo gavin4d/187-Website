@@ -1,0 +1,53 @@
+body {
+    background: cadetblue;
+}
+
+.s-about {
+    height: 500px;
+    display: grid;
+    grid-template-columns: 40px;
+}
+
+.media-viewer {
+    width: 400px;
+    height: 400px;
+    border-radius: 30px;
+
+}
+
+.a-shape {
+    position: absolute;
+    height: 100px;
+    width: 200px;
+    left: 400px;
+    background: royalblue;
+    border-radius: 10px;
+    top: 700px;
+}
+
+.hamburger {
+    height: 50px;
+    width: 50px;
+}
+
+.lg-preloader {
+    display: flex;
+    
+    align-items: center;
+    background: #aefff7;
+    justify-content: center;
+    opacity: 1;
+    transition: opacity 0.3s linear;
+}
+
+.is-hidden {
+opacity: 0;
+}
+
+.lg-preloader > .lg-lottie {
+    display: block;
+    position: relative;
+    width: 200px;
+    
+    z-index: 2;
+}
